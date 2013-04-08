@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "otun";
+    src: url(Otun.ttf) format("truetype");  
+}
+body{
+    background-image:url("../img/fondo_oscuro.jpg");
+    background-position: center;
+    text-align: center;
+}
+.imagen-phone{
+    box-shadow: 0 0 50px #0F0C09;
+    margin-top:20px;
+}
+.inferiorA{
+    background-image:url("../img/fondoSinLetra3a.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    height:72px;
+    text-align: center;
+}
+.inferiorB{
+    background-image:url("../img/fondoSinLetra3c.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    height:170px;
+    text-align: center;
+}
+.medio{
+    background-image:url("../img/fondoSinLetra2.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    height:180px;
+    text-align: center;
+}
+.superior{
+    background-image:url("../img/fondoSinLetra1.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 179px;
+    text-align: center;
+}
+.texto{
+    font-family:"otun";
+    font-size: 48px;
+    color: #edbc00;
+}
+.textoContacto{
+    color: #edbc00;
+    font-family:"otun";
+    font-size: 36px;
+    padding-left: 100px;
+    padding-top:25px;
+}
+.textoPhone{
+    color: #edbc00;
+    font-family:"otun";
+    font-size: 40px;
+    line-height: 120%;
+    padding:40px;
+    text-shadow: 2px 2px #006600;
+    word-wrap:break-word;
+}
+.video{
+    border:0px;
+    min-height:250px;
+    width: 100%;
+}
